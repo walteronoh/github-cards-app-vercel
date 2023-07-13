@@ -19,6 +19,7 @@ class Cards extends React.Component{
     <div>
       <p>{this.props.name}</p>
       <img alt="github profile" src={this.props.avatar_url}/>
+      <h3>Bio: {this.props.bio}</h3>
     </div>
     )
   }
